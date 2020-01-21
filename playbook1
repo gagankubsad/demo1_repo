@@ -1,2 +1,5 @@
 ---
-- name:
+- name: play1
+  hosts: all
+  tasks:
+  - name: install a pkg
